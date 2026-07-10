@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "floot": {
+      "type": "http",
+      "url": "https://mcp.floot.com/mcp"
+    }
+  }
+}
