@@ -1,0 +1,13 @@
+{
+  "name": "floot",
+  "displayName": "Floot",
+  "version": "0.1.0",
+  "description": "Build and host full-stack apps with your own AI",
+  "author": {
+    "name": "Floot",
+    "email": "adrian@floot.com"
+  },
+  "license": "MIT",
+  "keywords": ["floot", "mcp", "full-stack", "app-builder", "ai", "hosting"],
+  "logo": "assets/logo.svg"
+}

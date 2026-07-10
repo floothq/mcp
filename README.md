@@ -1,34 +1,46 @@
-# Cursor plugin template
+# Floot
 
-Build and publish Cursor Marketplace plugins from a single repo.
+**Build and host full-stack apps with your own AI.**
 
-Two starter plugins are included:
+A Cursor plugin that connects your editor to the Floot remote MCP server, so you can scaffold, build, and host full-stack applications without leaving your workflow.
 
-- **starter-simple**: rules and skills only
-- **starter-advanced**: rules, skills, agents, commands, hooks, MCP, and scripts
+## Install
 
-## Getting started
+Add this plugin from the Cursor Marketplace, or point Cursor at this repository.
 
-[Use this template](https://github.com/cursor/plugin-template/generate) to create a new repository, then customize:
+The plugin registers a single remote MCP server:
 
-1. `.cursor-plugin/marketplace.json`: set marketplace `name`, `owner`, and `metadata`.
-2. `plugins/*/.cursor-plugin/plugin.json`: set `name` (lowercase kebab-case), `displayName`, `author`, `description`, `keywords`, `license`, and `version`.
-3. Replace placeholder rules, skills, agents, commands, hooks, scripts, and logos.
+| Server | Transport | URL |
+|--------|-----------|-----|
+| `floot` | Streamable HTTP | `https://mcp.floot.com/mcp` |
 
-To add more plugins, see `docs/add-a-plugin.md`.
+No local install or API key is required to connect. If the server requires
+authentication, Cursor will prompt you to sign in on first use.
 
-## Single plugin vs multi-plugin
+## What's in this plugin
 
-This template defaults to **multi-plugin** (multiple plugins in one repo).
+```
+.cursor-plugin/plugin.json   Plugin manifest (name, version, author, logo)
+mcp.json                     Remote MCP server definition
+assets/logo.svg              Marketplace logo
+```
 
-For a **single plugin**, move your plugin folder contents to the repository root, keep one `.cursor-plugin/plugin.json`, and remove `.cursor-plugin/marketplace.json`.
+## Configuration
 
-## Submission checklist
+The MCP server is defined in [`mcp.json`](mcp.json):
 
-- Each plugin has a valid `.cursor-plugin/plugin.json`.
-- Plugin names are unique, lowercase, and kebab-case.
-- `.cursor-plugin/marketplace.json` entries map to real plugin folders.
-- All frontmatter metadata is present in rule, skill, agent, and command files.
-- Logos are committed and referenced with relative paths.
-- `node scripts/validate-template.mjs` passes.
-- Repository link is ready for submission to the Cursor team (Slack or `kniparko@anysphere.com`).
+```json
+{
+  "mcpServers": {
+    "floot": {
+      "url": "https://mcp.floot.com/mcp"
+    }
+  }
+}
+```
+
+To point at a different environment (e.g. staging), change the `url`.
+
+## License
+
+MIT
