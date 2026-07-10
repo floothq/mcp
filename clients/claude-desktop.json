@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "floot": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp.floot.com/mcp"]
+    }
+  }
+}
