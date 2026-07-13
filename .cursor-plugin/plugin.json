@@ -7,7 +7,6 @@
     "name": "Floot",
     "email": "adrian@floot.com"
   },
-  "license": "MIT",
   "keywords": ["floot", "mcp", "full-stack", "app-builder", "ai", "hosting"],
   "logo": "assets/logo.svg"
 }
