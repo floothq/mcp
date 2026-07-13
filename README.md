@@ -17,7 +17,6 @@
   <img src="https://img.shields.io/badge/protocol-MCP-000000?style=flat-square" alt="Model Context Protocol" />
   <img src="https://img.shields.io/badge/clients-Claude%20%C2%B7%20ChatGPT-000000?style=flat-square" alt="Clients" />
   <img src="https://img.shields.io/badge/status-beta-e8a33d?style=flat-square" alt="Beta" />
-  <img src="https://img.shields.io/badge/license-MIT-2b7489?style=flat-square" alt="MIT License" />
 </p>
 
 <p align="center">
@@ -212,9 +211,4 @@ clients/                     Ready-to-paste config for MCP clients
 mcp.json                     Generic MCP server definition
 .cursor-plugin/plugin.json   Cursor Marketplace plugin manifest
 assets/logo.svg              Logo
-LICENSE                      MIT
 ```
-
-## License
-
-[MIT](LICENSE)
