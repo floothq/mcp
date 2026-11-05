@@ -24,7 +24,8 @@
   <a href="#-what-floot-can-do">Capabilities</a> ·
   <a href="#-try-these-prompts">Prompts</a> ·
   <a href="#-what-it-costs">Cost</a> ·
-  <a href="#️-troubleshooting--faq">FAQ</a>
+  <a href="#️-troubleshooting--faq">FAQ</a> ·
+  <a href="#-guides">Guides</a>
 </p>
 
 ---
@@ -235,6 +236,18 @@ Turn off per-action approval in Floot's app settings in ChatGPT. A build makes d
 Yes. Database export works on every plan, and paid plans can download the full project. See [Code, data and exports](https://floot.com/docs/faqs/code-data-and-exports).
 
 </details>
+
+---
+
+## 📚 Guides
+
+- [Where to host an app built with Claude Code](https://floot.com/blog/where-to-host-an-app-built-with-claude-code-september-2026)
+- [Where to host an app built with Codex](https://floot.com/blog/where-to-host-an-app-built-with-codex-september-2026)
+- [Best Claude connectors for building apps](https://floot.com/blog/best-claude-connectors-for-building-apps-october-2026)
+- [Best MCP servers for non-developers](https://floot.com/blog/best-mcp-servers-for-non-developers-2026)
+- [Can you build an app with just a ChatGPT Plus subscription?](https://floot.com/blog/can-you-build-an-app-with-just-a-chatgpt-plus-subscription)
+- [Claude Artifacts vs a real hosted app](https://floot.com/blog/claude-artifacts-vs-a-real-hosted-app-what-s-the-difference)
+- [How to move your Lovable project to Floot](https://floot.com/blog/how-to-move-your-lovable-project-to-floot)
 
 ---
 
